@@ -6,6 +6,7 @@ const refs = {
     seconds: document.querySelector('[data-value="secs"]'),
 };
 
+//
 class CountdownTimer {
     constructor({ selector, targetDate }) {
         this.selector = selector;
